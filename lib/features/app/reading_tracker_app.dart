@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:reading_tracker_app/features/home_page/home_page.dart';
-import 'package:reading_tracker_app/features/navigation_bar/navigation_bar.dart';
+import 'package:reading_tracker_app/features/page_renderer/page_renderer.dart';
 
 // ReadingTrackerApp is the root widget of whole application
 class ReadingTrackerApp extends StatefulWidget {
@@ -13,6 +12,6 @@ class ReadingTrackerApp extends StatefulWidget {
 class _ReadingTrackerAppState extends State<ReadingTrackerApp> {
   @override
   Widget build(BuildContext context) {
-    return const HomePage();
+    return const PageRenderer();
   }
 }
