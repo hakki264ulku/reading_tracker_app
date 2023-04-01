@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:reading_tracker_app/features/books_page/books_page.dart';
-import 'package:reading_tracker_app/features/home_page/home_page.dart';
+import 'package:reading_tracker_app/features/pages/books_page/books_page.dart';
+import 'package:reading_tracker_app/features/pages/home_page/home_page.dart';
 import 'package:reading_tracker_app/features/navigation_bar/bloc/navigation_bloc.dart';
 import 'package:reading_tracker_app/features/navigation_bar/bloc/navigation_state.dart';
-import 'package:reading_tracker_app/features/profile_page/profile_page.dart';
-import 'package:reading_tracker_app/features/setting_page/setting_page.dart';
+import 'package:reading_tracker_app/features/pages/profile_page/profile_page.dart';
+import 'package:reading_tracker_app/features/pages/setting_page/setting_page.dart';
 
 class PageRenderer extends StatelessWidget {
   const PageRenderer({Key? key}) : super(key: key);
